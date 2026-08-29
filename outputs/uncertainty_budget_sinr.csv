@@ -1,0 +1,11 @@
+source,nominal,unit,u_i,c_i (dB/unit),u_contribution_dB,percent
+Transmit power $P$,20,dB,0.5,1,0.5,12.0
+Serving distance $d$,300,m,3.354,-0.03619,0.1214,0.7
+Path-loss exponent $\alpha$,2.5,-,0.1,-0.9435,0.09435,0.4
+Reference gain $G_0$,-38.47,dB,1,0.1169,0.1169,0.7
+Serving fading $g$,0,dB,1,1,1,48.2
+Noise power $\sigma^2$,0,dB,0.5,-0.1168,0.05842,0.2
+Interferer distance $d_I$,500,m,3.354,0.01918,0.06433,0.2
+Interferer fading $g_I$,0,dB,1,-0.8832,0.8832,37.6
+Combined (u_c),,dB,,,1.44,100.0
+Expanded (k=2),,dB,,,2.881,

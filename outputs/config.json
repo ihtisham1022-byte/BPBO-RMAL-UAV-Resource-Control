@@ -1,0 +1,52 @@
+{
+  "sys_params": {
+    "R_disk": 600.0,
+    "n_users": 80,
+    "n_uav": 3,
+    "n_subch": 4,
+    "n_power": 3,
+    "altitude": 80.0,
+    "uav_speed": 40.0,
+    "slot_time": 0.1,
+    "fc": 2000000000.0,
+    "bandwidth": 180000.0,
+    "p_min_dbm": 0.0,
+    "p_max_dbm": 23.0,
+    "pathloss_exp": 2.5,
+    "extra_gain_db": 0.0,
+    "noise_figure_db": 7.0,
+    "temperature_k": 290.0,
+    "noise_floor_dbm": -91.71697497367859,
+    "gamma_th_db": 3.0,
+    "w_sinr": 1.0,
+    "w_fair": 1.0,
+    "w_power": 1.0
+  },
+  "gamma_th_db": 3.0,
+  "refs": {
+    "R_ref": 15.0,
+    "F_ref": 6.0
+  },
+  "theta_bpbo": {
+    "eps_init": 0.8707021748579317,
+    "eps_min": 0.0399408646467754,
+    "eps_decay": 0.9624747823260424,
+    "C_beta": 1.486647251181758,
+    "phi_beta": 0.5494447499442517,
+    "w_sinr": 1.4416908042588263,
+    "w_fair": 0.9110607453520315,
+    "w_power": 0.3455757139022914
+  },
+  "theta_qhho": {
+    "alpha_init": 0.9130060032653737,
+    "alpha_min": 0.16170901572932397,
+    "alpha_decay": 0.9867162894617623,
+    "gamma": 0.984281813709863,
+    "eps_init": 0.926160859754768,
+    "eps_min": 0.49497051655233115,
+    "eps_decay": 0.9070357449725484
+  },
+  "F_bpbo": 1.5925388320708056,
+  "F_hho": 0.5324187538932128,
+  "N_eval": 14
+}

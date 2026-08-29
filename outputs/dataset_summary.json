@@ -1,0 +1,73 @@
+{
+  "source_file": "rmal_micro_manuscript_grade.xlsx",
+  "n_rows": 3060,
+  "columns": [
+    "episode",
+    "epsilon",
+    "time_slot",
+    "uav_id",
+    "user_id",
+    "subchannel",
+    "power_level_dbm",
+    "distance_m",
+    "sinr_db",
+    "state_sx",
+    "reward"
+  ],
+  "n_episodes": 5,
+  "epsilons": [
+    0.0,
+    0.2,
+    0.5,
+    0.8
+  ],
+  "n_uav": 3,
+  "n_users": 80,
+  "n_subchannels": 4,
+  "power_levels_dbm": [
+    17.0,
+    20.0,
+    23.0
+  ],
+  "time_slots": 51,
+  "time_slot_range": [
+    0,
+    250
+  ],
+  "distance_m": {
+    "min": 202.899,
+    "max": 600.0,
+    "mean": 445.96973039215686,
+    "std": 69.97792010440719
+  },
+  "sinr_db": {
+    "min": 1.326,
+    "max": 6.609,
+    "mean": 3.9282029411764703,
+    "std": 0.7843009078252667
+  },
+  "reward": {
+    "min": 0.0,
+    "max": 35.306,
+    "mean": 10.77163366013072,
+    "std": 8.324239942986912
+  },
+  "overall_qos_ratio": 0.8862745098039215,
+  "baseline_best_operating_point": {
+    "epsilon": 0.5,
+    "n_episodes": 5.0,
+    "R_tail": 26.389075000000002,
+    "u_R_tail": 0.2327656182849078,
+    "qos": 0.9725490196078432,
+    "u_qos": 0.00480292106428074,
+    "P_fair": 23.566938594354536,
+    "u_P_fair": 5.367851406520172,
+    "mean_sinr": 4.428406535947713,
+    "u_mean_sinr": 0.016506221621405665
+  },
+  "typeA_repeatability": {
+    "sinr_db": 0.3604519456178671,
+    "reward": 2.497133915110828,
+    "distance_m": 39.985708247834516
+  }
+}
