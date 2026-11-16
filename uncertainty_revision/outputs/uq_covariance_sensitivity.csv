@@ -1,0 +1,8 @@
+case,u_sinr_db,expanded_k2_db
+Independent ranges,1.3337890483460833,2.6675780966921665
+"Shared user; azimuths 0,120,240 deg",1.335713182904423,2.671426365808846
+Shared user; aligned azimuths,1.3299324277926758,2.6598648555853517
+Shared user and alpha-G0 correlation -0.5,1.339795706381781,2.679591412763562
+Shared user and alpha-G0 correlation +0.5,1.33161814313649,2.66323628627298
+Shared user and residual gain correlation +0.5,1.046881290874141,2.093762581748282
+Shared user and residual gain correlation +1.0,0.638585285909369,1.277170571818738
